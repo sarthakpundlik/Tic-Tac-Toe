@@ -1,0 +1,63 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#mainbox
+{
+    background-image: url('images/wood.jpg');
+    min-height: 500px;
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 5px gray;
+    margin-top: 10px;
+}
+
+#statusbar
+{
+    font-family: verdana;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(gray,white,gray);
+    padding: 5px;
+}
+
+
+#board
+{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn
+{
+    border: solid 5px white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 10px;
+    font-family: verdana;
+    font-size: 70px;
+    font-weight: 900;
+    background-image: url('images/paper.jpg');
+    color:white;
+    text-shadow: 3px 3px 8px black;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url('fonts/Texas.ttf');
+}
+
+h1
+{
+    text-align: center;
+    font-family: myFont;
+    font-size: 60px;
+}
+
