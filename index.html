@@ -1,16 +1,42 @@
 <html>
+<head>
     <link href="style.css" rel="stylesheet" />
+</head>
+
 <body>
-<div id="mainbox" >
+<div id="mainbox">
+
     <h1>Tic-Tac-Toe</h1>
-    <div id="statusbar" >
+
+    <div id="statusbar">
         Current Player : X
     </div>
-    <div id="board" >
 
+    <!-- SCOREBOARD -->
+    <div id="scoreboard">
+        <table>
+            <tr>
+                <th>Player</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>Player X</td>
+                <td id="scoreX">0</td>
+            </tr>
+            <tr>
+                <td>Player O</td>
+                <td id="scoreO">0</td>
+            </tr>
+        </table>
     </div>
-</div>    
-</body>    
-<script src="code.js"  >
-</script>
+
+    <div id="board"></div>
+
+    <!-- RESTART BUTTON -->
+    <button id="restartBtn">Restart Game</button>
+
+</div>
+
+<script src="code.js"></script>
+</body>
 </html>
